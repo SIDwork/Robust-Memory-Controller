@@ -6,11 +6,13 @@ As a project idea for the AI-Generated Open-Source AI Challenge, I propose to de
 
 The memory controller will incorporate several critical components, including:
 
-Error Checking: A Hamming code-based error detection and correction mechanism to protect the integrity of the KWS machine learning model parameters and audio feature data.
+_Error Checking:_ A Hamming code-based error detection and correction mechanism to protect the integrity of the KWS machine learning model parameters and audio feature data.
+
 _Address-Based Scrambling:_ A custom address scrambling algorithm to randomize the mapping of logical addresses to physical memory locations, enhancing the overall security of the KWS accelerator.
 
 _Maze Traversal Algorithm:_ A dynamic, maze-like routing algorithm to generate unique data access paths, adding an additional layer of protection for the KWS accelerator.
-Synchronous FIFO Buffer:_ A FIFO buffer to manage read and write requests from the KWS accelerator, with write requests given higher priority to maintain data consistency.
+
+_Synchronous FIFO Buffer:_ A FIFO buffer to manage read and write requests from the KWS accelerator, with write requests given higher priority to maintain data consistency.
 
 _APB Interface:_ An APB (Advanced Peripheral Bus) interface to enable efficient, low-bandwidth control and configuration of the memory subsystem by the KWS accelerator.
 
